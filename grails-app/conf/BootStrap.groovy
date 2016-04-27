@@ -45,8 +45,8 @@ class BootStrap {
 //
         def g1 = TekEvent.findByName('grails event')
         g1.addToVolunteers(new TekUser(fullName: 'bill gates',
-                                       userName: 'bill',
-                                       password: 'gates',
+                                       userName: 'admin',
+                                       password: 'admin',
                                        email: 'billgates@gmail.com',
                                        website: 'http://www.billgates.com',
                                        bio: 'thechnology user'))
